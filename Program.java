@@ -6,8 +6,9 @@ class program {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         
-        System.out.print("Enter 2 Integers:");
+        System.out.print("Enter First Integer:");
         int num1=myScanner.nextInt();
+        System.out.print("Enter Second Integer:");
         int num2=myScanner.nextInt();
         
         int sum=num1+num2;
